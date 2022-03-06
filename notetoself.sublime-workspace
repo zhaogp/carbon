@@ -1,0 +1,273 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"op",
+				"option"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"li",
+				"link"
+			],
+			[
+				"sub",
+				"substring"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"HTMLPrettify",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"plugin",
+				"Plugin Development: Profile Events"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"ui",
+				"UI: Select Theme"
+			],
+			[
+				"ui select",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"package con",
+				"Package Control: List Packages"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				" package control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"install package control",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/zhaoguoping/Documents/技术书籍/vue/song.css",
+		"/Users/zhaoguoping/Documents/技术书籍/Head-Fist-HTML5/myLoc.css",
+		"/Users/zhaoguoping/Documents/技术书籍/Head-Fist-HTML5/myLoc.js",
+		"/Users/zhaoguoping/Documents/技术书籍/Head-Fist-HTML5/Head-First-HTML5-master/chapter3/playlist.html",
+		"/Users/zhaoguoping/Documents/技术书籍/Head-Fist-HTML5/Head-First-HTML5-master/chapter3/playlist.js",
+		"/Users/zhaoguoping/Documents/技术书籍/Head-Fist-HTML5/Head-First-HTML5-master/chapter3/playlist.css",
+		"/Users/zhaoguoping/Documents/技术书籍/Head-Fist-HTML5/Head-First-HTML5-master/chapter3/playlist_store.js",
+		"/Users/zhaoguoping/Documents/技术书籍/vue/song.html",
+		"/Users/zhaoguoping/Documents/技术书籍/vue/personalInformation.html",
+		"/Users/zhaoguoping/Documents/技术书籍/Head-Fist-HTML5/myLoc.html",
+		"/Users/zhaoguoping/Documents/技术书籍/Head-Fist-HTML5/localStorage.js",
+		"/Users/zhaoguoping/Documents/技术书籍/Head-Fist-HTML5/nerve.html",
+		"/Users/zhaoguoping/Documents/技术书籍/Head-Fist-HTML5/notetoself.html",
+		"/Users/zhaoguoping/Documents/技术书籍/Head-Fist-HTML5/notetoself.css",
+		"/Users/zhaoguoping/Documents/技术书籍/vue/song.js",
+		"/Users/zhaoguoping/Documents/技术书籍/vue/unit2.html",
+		"/Users/zhaoguoping/Documents/技术书籍/vue/<",
+		"/Users/zhaoguoping/Documents/技术书籍/Head-First-JavaScript-Programming-master/chapter8/battleship.html",
+		"/Users/zhaoguoping/Library/Application Support/Sublime Text/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/zhaoguoping/geely/zeekr-ucds-pc/src/views/delivery/deliveryMan/HDSend.vue",
+		"/Users/zhaoguoping/geely/zeekr-ucds-pc/src/views/delivery/HDDelivery.vue",
+		"/Users/zhaoguoping/geely/zeekr-ucds-pc/src/views/delivery/CheckboxDelivery.vue",
+		"/Users/zhaoguoping/Library/Application Support/Sublime Text/Packages/User/.jsbeautifyrc",
+		"/Users/zhaoguoping/geely/zeekr-ucds-pc/src/views/delivery/HDDeliveryAll.vue",
+		"/Users/zhaoguoping/kuaibiancheng/HeadFirstJS/spec.js",
+		"/Users/zhaoguoping/kuaibiancheng/HeadFirstJS/duck.js",
+		"/Users/zhaoguoping/Library/Application Support/Sublime Text/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/Users/zhaoguoping/Documents/head-first-python/webapp/static/hf.css",
+		"/Users/zhaoguoping/Documents/head-first-python/webapp/templates/entry.html",
+		"/Users/zhaoguoping/Documents/head-first-python/webapp/templates/base.html",
+		"/Users/zhaoguoping/kuaibiancheng/js/exercise.html"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 143.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "notetoself.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
