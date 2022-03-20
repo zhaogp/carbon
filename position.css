@@ -1,0 +1,58 @@
+.parent-div {
+	position: relative;  /* 保留布局位置，相对原位置移动 */
+	left: 50px;
+	top: 100px;
+	width: 100000px;
+	height: 11200px;
+	padding: 100px;
+	background-color: #f40;
+
+}
+
+.main-div {
+	position: absolute;  /* 从布局中删除，相对于最近的父级元素移动 */
+	background-color: yellow;
+	left: 0px;
+	bottom: 0px;
+	padding: 20px;
+	border: 2px solid black;
+	margin-left: 10px ;
+	margin-bottom: 10px;
+
+}
+
+.header-div {
+	position: static;  /* 在布局中的原有位置不动 */
+	background-color: orange;
+	left: 100px;
+}
+
+.foot-div {
+	position: fixed;  /* 在布局中，相对页面移动 */
+	background-color: purple;
+	left: 100px;
+	top: 100px;
+}
+
+.sibling-div {
+	position: sticky; /* 在布局中，上下滚动到指定位置后不动 */
+	background-color: blue;
+	left: 10px;
+	top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

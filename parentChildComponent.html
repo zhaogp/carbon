@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>父子组件演示</title>
+</head>
+<body>
+	<div id="app">
+		<pc></pc>
+	</div>
+</body>
+
+	<script type="text/javascript" src="lib/vue.js"></script>
+
+	<script type="text/javascript">
+		var Child = Vue.extend({
+			template: '<p>子组件</p>'
+		});
+
+		var Parent = Vue.extend({
+			template: '<div>父组件<cc></cc></div>',
+			components: {
+				'cc': Child
+			}
+
+		});
+
+		// 全局注册父组件
+		Vue.component('pc', Parent)
+
+		var app = new Vue({
+			el: '#app'
+		})
+
+
+	</script>
+
+
+</html>
