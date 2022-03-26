@@ -1,0 +1,29 @@
+#header {
+	background-color: lightblue;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 500px;
+	height: 100px;
+}
+
+#navigation {
+	background-color: lightgray;
+	position: absolute;
+	top: 20px;
+	left: 550px;
+	width: 200px;
+	height: 1000px;
+}
+
+#main {
+	background-color: lightcyan;
+	margin-top: 140px;
+	margin-left: 20px;	
+	width: 500px;
+	height: 1000px;
+}
+
+#photo {
+	float: left;
+}

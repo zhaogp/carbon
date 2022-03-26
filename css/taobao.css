@@ -1,0 +1,43 @@
+* {
+	font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #424242;
+
+}
+
+.nav {
+	list-style: none;
+}
+
+.nav::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.nav .list-item {
+	float: left;
+	margin: 0 10px;
+	height: 30px;
+	/*border: solid 1px black;*/
+	line-height: 30px;
+}
+
+.nav .list-item a {
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+	padding: 0 5px;
+	border-radius: 15px;
+}
+
+.nav .color-special a{
+	color: green;
+	height: 30px;
+}
+
+.nav .list-item a:hover {
+	background-color: #f40;
+	color: #fff;
+}
