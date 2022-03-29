@@ -8,6 +8,10 @@
 
 .nav {
 	list-style: none;
+	background-color: green;
+	border: solid 5px #f40;
+	height: 100px;
+	width: 300px;
 }
 
 .nav::after {
@@ -19,9 +23,12 @@
 .nav .list-item {
 	float: left;
 	margin: 0 10px;
-	height: 30px;
+	height: 100px;
+	width: 100px;
 	/*border: solid 1px black;*/
 	line-height: 30px;
+	border: solid 5px #f40;
+
 }
 
 .nav .list-item a {
