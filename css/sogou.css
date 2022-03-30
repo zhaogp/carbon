@@ -36,37 +36,22 @@
 
 }
 
-#input-line {
-
+.input-line {
 }
 
-#input-box {
-
+.input-box {
+	display: block;
+	position: relative;
+	background-color: purple;
+	height: 42px;
+	margin: 0 auto;
+	padding: 0 154px 0 10px;
+	width: 656px;
+	height: 42px;
 }
 
 #submit-button {
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
