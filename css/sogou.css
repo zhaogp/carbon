@@ -18,8 +18,8 @@
 .main {
 	margin-top: 0px;
 	position: relative;
-	background-color: yellow;
-	border: solid 5px #f40;
+	/*background-color: yellow;*/
+	/*border: solid 5px #f40;*/
 	height: 500px;
 
 }
@@ -30,13 +30,14 @@
 	width: 440px;
 	top: 50%;
 	left: 50%;
-	background-color: blue;
+	/*background-color: blue;*/
 	margin: -140px 0 0 -220px;
-	opacity: 20%;
+	/*opacity: 20%;*/
 
 }
 
 .input-line {
+<<<<<<< HEAD
 }
 
 .input-box {
@@ -48,10 +49,43 @@
 	padding: 0 154px 0 10px;
 	width: 656px;
 	height: 42px;
+=======
+	position: absolute;
+	top: 250px;
+	left: 500px;
+	width: 800px;
+	background-color: #fff;
+	height: 100px;
+	display: block;
 }
 
-#submit-button {
+.input-box {
+	position: absolute;
+	display: inline-block;
+	background-color: #fff;
+	height: 42px;
+	width: 800px;
+	line-height: 42px;
+	left: -200px;
+>>>>>>> b0ac5d4ed00c23b142e33cff950d8e1064a2f3af
+}
 
+.search-button input{
+	position: absolute;
+	/*background-color: #cacaca;*/
+	left: 600px;
+	height: 46px;
+	width: 80px;
+	display: block;
+	margin-left: 5px;
+	border: solid 1px black;
 }
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> b0ac5d4ed00c23b142e33cff950d8e1064a2f3af
