@@ -37,19 +37,6 @@
 }
 
 .input-line {
-<<<<<<< HEAD
-}
-
-.input-box {
-	display: block;
-	position: relative;
-	background-color: purple;
-	height: 42px;
-	margin: 0 auto;
-	padding: 0 154px 0 10px;
-	width: 656px;
-	height: 42px;
-=======
 	position: absolute;
 	top: 250px;
 	left: 500px;
@@ -67,10 +54,11 @@
 	width: 800px;
 	line-height: 42px;
 	left: -200px;
->>>>>>> b0ac5d4ed00c23b142e33cff950d8e1064a2f3af
+	font-size: 18px;
+	padding-left: 10px;
 }
 
-.search-button input{
+.search-button input {
 	position: absolute;
 	/*background-color: #cacaca;*/
 	left: 600px;
@@ -79,13 +67,8 @@
 	display: block;
 	margin-left: 5px;
 	border: solid 1px black;
+	font-size: 16px;
+	cursor: pointer;
+
 }
 
-
-<<<<<<< HEAD
-=======
-
-
-
-
->>>>>>> b0ac5d4ed00c23b142e33cff950d8e1064a2f3af

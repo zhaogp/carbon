@@ -4,18 +4,19 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>starbucks web</title>
-	<link rel="stylesheet" type="text/css" href="starbucks-position.css">
+	<link rel="stylesheet" type="text/css" href="../css/starbucks-position.css">
 </head>
 <body>
 	<div id="header">
-		<img src="images/starbucks-logo.svg" alt="“Starbuzz Coffee header image">
+		<img src="../images/starbucks-logo.svg" alt="“Starbuzz Coffee header image">
 	</div>
 	<div id="award">
-		<img src="images/starbucks-award.png" alt="奖杯">
+		<img src="../images/starbucks-award.png" alt="奖杯">
 	</div>
 	<div id="sidebar">
+
 		<p class="beanheading">
-			<img class="sidebar-image" src="images/coffee.jpg" alt="Bean Machine bag" />
+			<img class="sidebar-image" src="../images/coffee.jpg" alt="Bean Machine bag" />
 			<br />
 			ORDER ONLINE
 			with the
@@ -95,6 +96,45 @@
 		All trademarks and registered trademarks appearing on
  		this site are the property of their respective owners.
 	</div>
+
+	<form action="" method="post">
+		<table>
+			<tr>
+				<th>
+					Province:
+				</th>
+				<td>
+					<select value="Province">
+						<option value="Hebei">Hebei</option>
+						<option value="Shanxi">Shanxi</option>
+						<option value="Zhejiang">Zhejiang</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>
+					Served in:
+				</th>
+				<td>
+					<input type="radio" class="served-in" id="Asiainfo" name="served-in" />
+					<label for="Asiainfo">
+						Asiainfo
+					</label>
+					<br />
+					<input type="radio" class="served-in" id="JD" name="served-in" />
+					<label for="JD">JD</label>
+					<br />
+					<input type="radio" id="Kingsoft" class="served-in" name="served-in" />
+					<label for="Kingsoft">Kingsoft</label>
+					<br />
+					<input type="radio" id="Zeekr" class="served-in" checked="checked" name="served-in" />
+					<label for="Zeekr" >Zeekr</label> 
+				</td>
+			</tr>
+		</table>
+
+
+	</form>
 
 </body>
 </html>
