@@ -1,7 +1,7 @@
 body {
     background-color: #b5a789;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: small;
+    font-size: 18px;
     margin: 0;
 }
 
@@ -86,4 +86,10 @@ a:visited {
 #coupon-div img {
     width: 100px;
     height: 50px;
+}
+
+form {
+    background-color: cyan;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }

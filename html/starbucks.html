@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>starbucks web</title>
-	<link rel="stylesheet" type="text/css" href="../css/starbucks-position.css">
+	<link rel="stylesheet" type="text/css" href="../css/starbucks.css">
 </head>
 <body>
 	<div id="header">
@@ -90,12 +90,7 @@
 		</a>
 	</div>
 	
-	<div id="footer">
-		&copy; 2005, Starbuzz Coffee
-		<br />
-		All trademarks and registered trademarks appearing on
- 		this site are the property of their respective owners.
-	</div>
+
 
 	<form action="" method="post">
 		<table>
@@ -131,10 +126,72 @@
 					<label for="Zeekr" >Zeekr</label> 
 				</td>
 			</tr>
+			<tr>
+				<th>
+					Rivers:
+				</th>
+				<td>
+					<input type="checkbox" id="yellow-river" class="rivers" name="rivers">
+					<label for="yellow-river">Yellow River</label>
+					<br />
+					<input type="checkbox" id="fen-river"
+					class="rivers" name="rivers">
+					<label for="fen-river">Fen River</label>
+					<br />
+					<input type="checkbox" id="hai-river"
+					class="rivers" checked="checked" name="rivers">
+					<label for="hai-river">Hai River</label>
+					<br />
+				</td>
+			</tr>
+			<tr>
+				<th>
+					Ship to:
+				</th>
+				<td>
+					<table>
+						<tr>
+							<th>
+								Name:
+							</th>
+							<td>
+								<input type="text" name="name">
+							</td>
+						</tr>
+                        <tr>
+                        	<th>
+                        		Address:
+                        	</th>
+                        	<td>
+                        		<input type="text" name="address">
+                        	</td>
+                        </tr>
+                        <tr>
+                        	<th>Phone:</th>
+                        	<td>
+                        		<input type="text" name="phone">
+                        	</td>
+                        </tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<th>Customer Comments:</th>
+				<td>
+					<textarea rows="10" cols="48" name="comments"></textarea>>
+				</td>
+			</tr>
 		</table>
 
 
 	</form>
+
+	<div id="footer">
+		&copy; 2005, Starbuzz Coffee
+		<br />
+		All trademarks and registered trademarks appearing on
+ 		this site are the property of their respective owners.
+	</div>
 
 </body>
 </html>
