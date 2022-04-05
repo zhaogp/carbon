@@ -86,31 +86,32 @@
 	</div>
 	<div id="coupon-div">
 		<a href="free-coffee.html" title="Click here to get your free coffee">
-			<img src="images/coupon.png" alt="Starbuzz coupon ticket" class="coupon-img" />
+			<img src="../images/coupon.png" alt="Starbuzz coupon ticket" class="coupon-img" />
 		</a>
 	</div>
-	
 
-
-	<form action="" method="post">
+	<form action="#" method="post">
+		<p>Form and Table combination</p>
 		<table>
 			<tr>
-				<th>
+				<th class="title">
 					Province:
 				</th>
-				<td>
-					<select value="Province">
+				<td class="data">
+					<select value="Province" multiple="multiple">
 						<option value="Hebei">Hebei</option>
 						<option value="Shanxi">Shanxi</option>
 						<option value="Zhejiang">Zhejiang</option>
+						<option value="Jiangsu">Jiangsu</option>
+						<option value="Neimenggu">Neimenggu</option>
 					</select>
 				</td>
 			</tr>
 			<tr>
-				<th>
+				<th class="title">
 					Served in:
 				</th>
-				<td>
+				<td class="data">
 					<input type="radio" class="served-in" id="Asiainfo" name="served-in" />
 					<label for="Asiainfo">
 						Asiainfo
@@ -127,10 +128,10 @@
 				</td>
 			</tr>
 			<tr>
-				<th>
+				<th class="title">
 					Rivers:
 				</th>
-				<td>
+				<td class="data">
 					<input type="checkbox" id="yellow-river" class="rivers" name="rivers">
 					<label for="yellow-river">Yellow River</label>
 					<br />
@@ -145,10 +146,10 @@
 				</td>
 			</tr>
 			<tr>
-				<th>
+				<th class="title">
 					Ship to:
 				</th>
-				<td>
+				<td class="data">
 					<table>
 						<tr>
 							<th>
@@ -176,13 +177,52 @@
 				</td>
 			</tr>
 			<tr>
-				<th>Customer Comments:</th>
-				<td>
-					<textarea rows="10" cols="48" name="comments"></textarea>>
+				<th class="title">Customer Comments:</th>
+				<td class="data">
+					<textarea rows="10" cols="48" name="comments">
+						This is default values
+					</textarea>
 				</td>
 			</tr>
+		<tr>
+			<th class="title"></th>
+			<td class="data">
+				<input type="submit" value="Order Now">
+			</td>
+		</tr>
+		<tr>
+			<th class="title">
+				Password:
+			</th>
+			<td class="data">
+				<input type="password" value="" id="password">
+			</td>
+		</tr>
+		<tr>
+			<th class="title">
+				File:
+			</th>
+			<td class="data">
+				<input type="file">
+			</td>
+		</tr>
+		<tr>
+			<th class="title">Field Sets:</th>
+			<td class="data">
+				<fieldset>
+					<legend>
+						Holiday
+					</legend>
+					<input type="checkbox" value="Qingming" name="holiday">
+					Qingming <br />
+					<input type="checkbox" value="Duanwu" name="holiday">
+					Duanwu <br />
+					<input type="checkbox" value="Wuyi" name="holiday">
+					Wuyi <br />
+				</fieldset>
+			</td>
+		</tr>
 		</table>
-
 
 	</form>
 
