@@ -1,0 +1,76 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#board {
+	background: url("../images/chapter8/board.jpg");
+	height: 863px;	
+	width: 1024px;
+	position: relative;
+	left: 50%;
+	margin-left: -512px;
+
+}
+
+table {
+	border: solid 1px black;
+}
+
+#battleMessage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: cyan;
+	padding: 15px;
+	border: solid 1px red;
+}
+
+table {
+	position: absolute;
+	top: 98px;
+	left: 173px;
+	border: solid 1px red;
+	border-spacing: 0;
+}
+
+td {
+	width: 94px;
+	height: 94px;
+}
+
+form {
+	position: absolute;
+	right: 100px;
+	bottom: 0;
+	padding: 15px;
+	background-color: rgb(83, 175, 19);
+}
+
+form input {
+	background-color: rgb(152, 207, 113);
+	border-color: rgb(83, 175, 19);
+	font-size: 1em;
+}
+
+.hit {
+	background: url("../images/chapter8/ship.png") center center no-repeat;
+}
+
+.miss {
+	background: url("../images/chapter8/miss.png") center center no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
