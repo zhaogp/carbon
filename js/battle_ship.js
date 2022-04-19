@@ -31,12 +31,12 @@ var model = {
 	shipLength: 3,
 	ships: [
 		{
-			locations: ['11', '12', '13'],
-			hits: [0, 0, 1]  // 0 -- 未被击中
+			locations: [0, 0, 0],
+			hits: [0, 0, 0]  // 0 -- 未被击中
 		},
 		{
-			locations: ['33', '43', '53'],
-			hits: [1, 0, 1]  // 1 -- 击中
+			locations: [0, 0, 0],
+			hits: [0, 0, 0]  // 1 -- 击中
 		},
 
 	],
@@ -113,11 +113,31 @@ var model = {
 
 	generateShip: function() {
 		// 动态生成飞船
+		var locations;
 		for (var i=0; i<this.shipTotalNum; i++) {
 			console.log('生成第 ' + (i+1) + ' 艘飞船');
 			
-			this.ships[i].locations = this.generateRandomLocations();
+			do {
+				locations = this.generateRandomLocations();
+			} while (this.collitionDetection(locations))
+
+			this.ships[i].locations = locations;  // 确定不碰撞的位置再赋值
 		}
+	},
+
+	collitionDetection: function (locations) {
+		for (var i = 0; i < this.shipTotalNum; i++) {
+			var ship = model.ships[i];
+			for (var j = 0; j < this.shipLength; j++) {
+				if (ship.locations.indexOf(locations[j]) > 0) {
+					console.warn('侦测到有碰撞');
+					return true;
+				}
+			}
+		}
+
+		console.log('侦测到没有碰撞');
+		return false;
 	}
 }
 
